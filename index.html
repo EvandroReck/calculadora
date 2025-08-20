@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 <header>
 <div class="container nav">
@@ -28,7 +27,6 @@
 </div>
 </header>
 
-
 <main id="home" class="hero">
 <div class="blob" aria-hidden="true"></div>
 <div class="container hero-grid">
@@ -39,9 +37,10 @@
 <div class="cta-row">
 <a class="btn primary shine" href="#contato">Começar agora</a>
 <a class="btn" href="#features">Ver recursos</a>
+<!-- Botão da Calculadora -->
+<button class="btn" onclick="openCalculator()">Abrir Calculadora</button>
 </div>
 </div>
-
 
 <aside class="card-hero" aria-label="Destaques">
 <div class="stat"><span class="dot" aria-hidden="true"></span><div><b>Performance A+</b><div class="muted">Sem dependências externas</div></div></div>
@@ -51,12 +50,10 @@
 </div>
 </main>
 
-
 <section id="features">
 <div class="container">
 <h2 class="section-title">Recursos que brilham</h2>
 <p class="section-sub">Feito para você personalizar rapidinho (cores, textos e blocos).</p>
-
 
 <div class="grid-3">
 <article class="feature">
@@ -78,7 +75,13 @@
 </div>
 </section>
 
-
 <section id="gallery">
 <div class="container">
+<!-- conteúdo da galeria -->
+</div>
+</section>
+
+<!-- Importa a calculadora -->
+<script src="calculadora.js"></script>
+</body>
 </html>
